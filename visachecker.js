@@ -59,7 +59,7 @@ function set_visa_status() {
 			stat : sel_stat
 		};
 		jQuery.ajax({
-     			url: visachecker_cb_scripts.ajax_url,
+     			url: visachecker_cb_scripts.ajaxurl,
      			//url : 'index_cb.php',
      			data: chk_data,
      			beforeSend: function(res) {
