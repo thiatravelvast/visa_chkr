@@ -11,5 +11,3 @@ var cmb_res  = "v_cmbres";
 var rslt_txt = "txt_v_rslt_title";
 var rslt_msg = "txt_v_rslt_msg";
 
-var visa_chkr_url = "visa_chkr_scripts.ajaxurl"; //WP
-//var visa_chkr_url = "index_cb.php"; //local

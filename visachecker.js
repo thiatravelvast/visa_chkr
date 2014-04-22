@@ -52,14 +52,15 @@ function disp_rslt_title() {
 
 function set_visa_status() {
 		var chk_data = {
-			action : 'visa_chkr_callback',
+			action : 'visachecker_cb',
 			pspt : sel_pspt,
 			dest : sel_dest,
 			res  : sel_res,
 			stat : sel_stat
 		};
 		jQuery.ajax({
-     			url: visa_chkr_url,
+     			url: visachecker_cb_scripts.ajax_url,
+     			//url : 'index_cb.php',
      			data: chk_data,
      			beforeSend: function(res) {
      				set_txt_on_obj(rslt_msg, "We are checking our database. Please wait");

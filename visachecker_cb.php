@@ -1,5 +1,5 @@
 <?php
-	function visa_chkr_callback() {
-		echo "Visa Required";
+	function visachecker_cb() {
+		echo "No Visa Required";
 	}
 ?>
